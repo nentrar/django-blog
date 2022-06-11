@@ -4,11 +4,13 @@
         <title>Yerbaciarz</title>
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
         <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="{% static 'blog/style.css' %}">
     </head>
     <body>
         <div class="page-header">
+            <a href="{% url 'post_new' %}" class="top-menu"><i class="bi bi-plus"></i></a>
             <h1><a href="/">Yerbaciarz - blog o yerba mate.</a></h1>
         </div>
 
